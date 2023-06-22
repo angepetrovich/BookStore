@@ -1,0 +1,7 @@
+
+Ì
+java:S1598"°This file "Main.java" should be located in "com\bookstore" directory, not in "C:\Users\ppawe\Desktop\BookStore\src\main\java\com.bookstore"(Do not use dots in directory names).(Û™¬’øÿÿÿÿ
+P
+java:S1874";Remove this use of "buildSessionFactory"; it is deprecated.(ñƒ¸m
+X	java:S125"<This block of commented-out lines of code should be removed.(Ó®‡8Ÿñ¡ì•0
+V	java:S125"<This block of commented-out lines of code should be removed.(šî©øÿÿÿÿÿ
