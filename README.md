@@ -4,14 +4,14 @@ student: Anhelina Piatrovich
 
 
 #Uruchamianie aplikacji.
-W pliku sql znajduje się skrypt dla stworzenia wszystkich tabel oraz skrypt dla uzupełnienia tabel oprócz tabeli
-users, authorities. Aby przetestować aplikacje, trzeba stworzyc przez endpoint  /register usera oraz przez endpoint /adminregister
-stworzyc admina.
+W pliku SQL znajduje się skrypt do stworzenia wszystkich tabel oraz skrypt 
+do uzupełnienia tabel (z wyjątkiem tabel users i authorities). 
+Aby przetestować aplikację, należy stworzyć użytkownika poprzez endpoint /register oraz administratora poprzez endpoint /adminregister.
 
 #Funkcjonalność. 
-Stworzony jest CRUD dla ksiazek, wyswietlanie i dodawanie autorow, 
-wuswietlanie i dodawanie kategorii. Stworzony koszyk, ktory zachowuje ksiazki.
-Przez usera można dodawać i usuwać ksiażki w koszyku. Również user 
-może wyświetlać ksiązki, autorów oraz kategorie.
-Inne funkcjonalności jak dodawanie autorow, kategorii, 
-dodawanie, usuwanie, edytowanie ksiazek może dokonywać tylko adminstrator.
+Aplikacja posiada CRUD dla książek, wyświetlanie i dodawanie autorów oraz wyświetlanie i dodawanie kategorii.
+Stworzony jest koszyk, który przechowuje książki. Użytkownik może dodawać i usuwać książki w koszyku,
+a także wyświetlać książki, autorów oraz kategorie.
+
+Inne funkcjonalności, takie jak dodawanie autorów, kategorii oraz dodawanie, usuwanie i edytowanie książek,
+są dostępne tylko dla administratora.
